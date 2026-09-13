@@ -1,0 +1,29 @@
+.app {
+  background-color: #f3f7fa;
+  padding: 50px;
+  min-height: 100%;
+
+  @media (width <= 768px) {
+    padding: 20px;
+  }
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2.15fr;
+  gap: 40px;
+  align-items: flex-start;
+
+  @media (width <= 768px) {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

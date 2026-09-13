@@ -1,0 +1,69 @@
+.flight-card {
+  background-color: var(--color-secondary);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow-card);
+  padding: 20px;
+
+  @media (width <= 768px) {
+    padding: 15px;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 15px;
+  }
+
+  &__price {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color-primary);
+    white-space: nowrap;
+  }
+
+  &__logo {
+    height: 40px;
+    display: block;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    @media (width <= 768px) {
+      flex-direction: row;
+    }
+  }
+
+  &__info-set {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    @media (width <= 768px) {
+      flex: 1 1 50%;
+      flex-direction: column;
+    }
+  }
+
+  &__info-item {
+    flex: 1 1 33%;
+  }
+
+  &__info-label {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--color-content-secondary);
+  }
+
+  &__info-value {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-content);
+  }
+}

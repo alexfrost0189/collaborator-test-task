@@ -1,0 +1,96 @@
+.checkboxes {
+  background-color: var(--color-secondary);
+  box-shadow: var(--box-shadow-card);
+  border-radius: var(--border-radius);
+  padding: 14px 20px;
+
+  @media (width <= 768px) {
+    padding: 10px 15px;
+  }
+
+  &__title {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #211c1c;
+    margin-bottom: 8px;
+  }
+
+  &__list {
+    margin: 0 -20px;
+
+    @media (width <= 768px) {
+      margin: 0 -15px;
+    }
+  }
+
+  &__item {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover {
+      background-color: var(--color-hover);
+    }
+
+    span {
+      display: block;
+      position: relative;
+      font-size: 13px;
+      color: var(--color-content);
+      padding-left: 30px;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 20px;
+        height: 20px;
+        border: 1px solid var(--color-border-secondary);
+        border-radius: 1px;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        transform: translateY(-50%);
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDEyIDgiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik00LjI4NTcxIDhMMCA0LjE2MTIzTDEuMjA4NTcgMy4wNzg3TDQuMjg1NzEgNS44MjcyNkwxMC43OTE0IDBMMTIgMS4wOTAyMUw0LjI4NTcxIDhaIiBmaWxsPSIjMjE5NkYzIi8+Cjwvc3ZnPgo=");
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 12px;
+        height: 8px;
+        opacity: 0;
+        transition: opacity 0.2s ease-in-out;
+      }
+    }
+
+    input[type="checkbox"] {
+      width: 0;
+      height: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+
+      &:checked + span {
+        &::before {
+          border-color: var(--color-primary);
+        }
+
+        &::after {
+          opacity: 1;
+        }
+      }
+
+      &:focus-visible + span {
+        outline: 2px solid var(--color-primary);
+      }
+    }
+  }
+}
