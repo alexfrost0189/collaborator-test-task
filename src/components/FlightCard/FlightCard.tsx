@@ -24,7 +24,11 @@ export default function FlightCard({ price, airline, inbound, outbound }: Flight
     <div className="flight-card">
       <div className="flight-card__header">
         <div className="flight-card__price">{formatPrice(price.amount, price.currency)}</div>
-        <img className="flight-card__logo" src={airline.logo} alt={airline.name} />
+        <img
+          className="flight-card__logo"
+          src={`${process.env.PUBLIC_URL}${airline.logo}`}
+          alt={airline.name}
+        />
       </div>
       <div className="flight-card__info">
         <div className="flight-card__info-set">

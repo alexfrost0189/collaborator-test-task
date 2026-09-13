@@ -19,7 +19,7 @@ const initialState: FlightsState = {
 export const fetchFlights = createAsyncThunk(
   "flights/fetchFlights",
   async () => {
-    const res = await fetch("/data/data.json");
+    const res = await fetch(`${process.env.PUBLIC_URL}/data/data.json`);
     if (!res.ok) throw new Error("Не вдалося завантажити рейси");
     const data: { flights: Flight[] } = await res.json();
     return data.flights;
