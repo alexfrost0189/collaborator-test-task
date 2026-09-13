@@ -1,5 +1,7 @@
 # Flight Search
 
+**Demo:** https://alexfrost0189.github.io/collaborator-test-task/
+
 Test task: a flight tickets list with filtering by number of stops, sorting and "show more" pagination.
 
 ## Features
