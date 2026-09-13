@@ -1,0 +1,329 @@
+{
+  "flights": [
+    {
+      "id": 1,
+      "price": {
+        "amount": 13300,
+        "currency": "USD"
+      },
+      "airline": {
+        "name": "Airline for Europe",
+        "logo": "/images/afe.png"
+      },
+      "outbound": {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTimestamp": "2026-09-15T10:45:00Z",
+        "arrivalTimestamp": "2026-09-15T16:05:00Z",
+        "stopCities": ["IST", "DOH"]
+      },
+      "inbound": {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTimestamp": "2026-09-22T11:20:00Z",
+        "arrivalTimestamp": "2026-09-22T16:00:00Z",
+        "stopCities": ["DOH", "IST"]
+      }
+    },
+    {
+      "id": 2,
+      "price": {
+        "amount": 15100,
+        "currency": "USD"
+      },
+      "airline": {
+        "name": "Airline for Europe",
+        "logo": "/images/afe.png"
+      },
+      "outbound": {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTimestamp": "2026-09-15T10:45:00Z",
+        "arrivalTimestamp": "2026-09-15T15:35:00Z",
+        "stopCities": ["AMS"]
+      },
+      "inbound": {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTimestamp": "2026-09-22T11:20:00Z",
+        "arrivalTimestamp": "2026-09-22T16:30:00Z",
+        "stopCities": ["AMS"]
+      }
+    },
+    {
+      "id": 3,
+      "price": {
+        "amount": 15400,
+        "currency": "USD"
+      },
+      "airline": {
+        "name": "Airline for Europe",
+        "logo": "/images/afe.png"
+      },
+      "outbound": {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTimestamp": "2026-09-15T10:45:00Z",
+        "arrivalTimestamp": "2026-09-15T19:05:00Z",
+        "stopCities": ["FRA", "MUC", "DOH"]
+      },
+      "inbound": {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTimestamp": "2026-09-22T11:20:00Z",
+        "arrivalTimestamp": "2026-09-22T19:00:00Z",
+        "stopCities": ["DOH", "MUC", "FRA"]
+      }
+    },
+    {
+      "id": 4,
+      "price": {
+        "amount": 21400,
+        "currency": "USD"
+      },
+      "airline": {
+        "name": "Airline for Europe",
+        "logo": "/images/afe.png"
+      },
+      "outbound": {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTimestamp": "2026-09-15T10:45:00Z",
+        "arrivalTimestamp": "2026-09-15T19:25:00Z",
+        "stopCities": ["CDG", "CAI"]
+      },
+      "inbound": {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTimestamp": "2026-09-22T11:20:00Z",
+        "arrivalTimestamp": "2026-09-22T18:40:00Z",
+        "stopCities": ["CAI", "CDG"]
+      }
+    },
+    {
+      "id": 5,
+      "price": {
+        "amount": 23900,
+        "currency": "USD"
+      },
+      "airline": {
+        "name": "Airline for Europe",
+        "logo": "/images/afe.png"
+      },
+      "outbound": {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTimestamp": "2026-09-15T10:45:00Z",
+        "arrivalTimestamp": "2026-09-15T14:55:00Z",
+        "stopCities": ["DOH"]
+      },
+      "inbound": {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTimestamp": "2026-09-22T11:20:00Z",
+        "arrivalTimestamp": "2026-09-22T15:10:00Z",
+        "stopCities": ["DOH"]
+      }
+    },
+    {
+      "id": 6,
+      "price": {
+        "amount": 24500,
+        "currency": "USD"
+      },
+      "airline": {
+        "name": "Gulf Air",
+        "logo": "/images/afe.png"
+      },
+      "outbound": {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTimestamp": "2026-09-15T10:45:00Z",
+        "arrivalTimestamp": "2026-09-15T14:45:00Z",
+        "stopCities": []
+      },
+      "inbound": {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTimestamp": "2026-09-22T11:20:00Z",
+        "arrivalTimestamp": "2026-09-22T15:20:00Z",
+        "stopCities": []
+      }
+    },
+    {
+      "id": 7,
+      "price": {
+        "amount": 19800,
+        "currency": "USD"
+      },
+      "airline": {
+        "name": "Qatar Airways",
+        "logo": "/images/afe.png"
+      },
+      "outbound": {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTimestamp": "2026-09-15T10:45:00Z",
+        "arrivalTimestamp": "2026-09-15T17:05:00Z",
+        "stopCities": ["VIE", "AUH"]
+      },
+      "inbound": {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTimestamp": "2026-09-22T11:20:00Z",
+        "arrivalTimestamp": "2026-09-22T17:00:00Z",
+        "stopCities": ["AUH", "VIE"]
+      }
+    },
+    {
+      "id": 8,
+      "price": {
+        "amount": 17200,
+        "currency": "USD"
+      },
+      "airline": {
+        "name": "Turkish Airlines",
+        "logo": "/images/afe.png"
+      },
+      "outbound": {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTimestamp": "2026-09-15T10:45:00Z",
+        "arrivalTimestamp": "2026-09-15T16:35:00Z",
+        "stopCities": ["IST"]
+      },
+      "inbound": {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTimestamp": "2026-09-22T11:20:00Z",
+        "arrivalTimestamp": "2026-09-22T17:30:00Z",
+        "stopCities": ["IST"]
+      }
+    },
+    {
+      "id": 9,
+      "price": {
+        "amount": 14500,
+        "currency": "USD"
+      },
+      "airline": {
+        "name": "Etihad",
+        "logo": "/images/afe.png"
+      },
+      "outbound": {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTimestamp": "2026-09-15T10:45:00Z",
+        "arrivalTimestamp": "2026-09-15T18:15:00Z",
+        "stopCities": ["ZRH", "CAI"]
+      },
+      "inbound": {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTimestamp": "2026-09-22T11:20:00Z",
+        "arrivalTimestamp": "2026-09-22T17:50:00Z",
+        "stopCities": ["CAI", "ZRH"]
+      }
+    },
+    {
+      "id": 10,
+      "price": {
+        "amount": 16700,
+        "currency": "USD"
+      },
+      "airline": {
+        "name": "Airline for Europe",
+        "logo": "/images/afe.png"
+      },
+      "outbound": {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTimestamp": "2026-09-15T10:45:00Z",
+        "arrivalTimestamp": "2026-09-15T17:55:00Z",
+        "stopCities": ["AUH"]
+      },
+      "inbound": {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTimestamp": "2026-09-22T11:20:00Z",
+        "arrivalTimestamp": "2026-09-22T18:10:00Z",
+        "stopCities": ["AUH"]
+      }
+    },
+    {
+      "id": 11,
+      "price": {
+        "amount": 22300,
+        "currency": "USD"
+      },
+      "airline": {
+        "name": "British Airways",
+        "logo": "/images/afe.png"
+      },
+      "outbound": {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTimestamp": "2026-09-15T10:45:00Z",
+        "arrivalTimestamp": "2026-09-15T17:25:00Z",
+        "stopCities": ["FRA"]
+      },
+      "inbound": {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTimestamp": "2026-09-22T11:20:00Z",
+        "arrivalTimestamp": "2026-09-22T17:40:00Z",
+        "stopCities": ["FRA"]
+      }
+    },
+    {
+      "id": 12,
+      "price": {
+        "amount": 18950,
+        "currency": "USD"
+      },
+      "airline": {
+        "name": "Lufthansa",
+        "logo": "/images/afe.png"
+      },
+      "outbound": {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTimestamp": "2026-09-15T10:45:00Z",
+        "arrivalTimestamp": "2026-09-15T14:30:00Z",
+        "stopCities": []
+      },
+      "inbound": {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTimestamp": "2026-09-22T11:20:00Z",
+        "arrivalTimestamp": "2026-09-22T15:05:00Z",
+        "stopCities": []
+      }
+    },
+    {
+      "id": 13,
+      "price": {
+        "amount": 17500,
+        "currency": "USD"
+      },
+      "airline": {
+        "name": "Airline for Europe",
+        "logo": "/images/afe.png"
+      },
+      "outbound": {
+        "from": "LHR",
+        "to": "DXB",
+        "departureTimestamp": "2026-09-15T10:45:00Z",
+        "arrivalTimestamp": "2026-09-15T14:15:00Z",
+        "stopCities": []
+      },
+      "inbound": {
+        "from": "DXB",
+        "to": "LHR",
+        "departureTimestamp": "2026-09-22T11:20:00Z",
+        "arrivalTimestamp": "2026-09-22T14:50:00Z",
+        "stopCities": []
+      }
+    }
+  ]
+}
